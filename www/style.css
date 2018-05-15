@@ -1,0 +1,233 @@
+body {    
+      background:url(assets/bg_imagepoprawionev2.jpg) no-repeat;
+      height: 100vh;
+      width: 100vw;
+      background-color: #001820;    
+      background-size: cover;      
+}
+.logo {
+   padding-left: 20px;
+}
+#nav {
+    margin-top:40px;
+	padding-right: 20px;
+    
+}
+.icon {
+    margin-top: 30px;
+}
+li a {
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 60px;
+    
+    
+}
+li a:hover {
+    background-color: transparent!important;
+    color: #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+    border-bottom-width:medium;
+    
+}
+li a:hover :after{
+    background-color: transparent!important;
+    color: #FFFFFF !important;
+}
+li a:active {
+    background-color: transparent!important;
+    color: #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+}
+li a:focus{
+	background-color: transparent!important;
+	color: #FFFFFF;
+}
+.contact {
+    border: 4px solid;   
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    margin-top: -4px;
+}
+.contact a {
+    text-decoration: none;
+    text-align: center;
+    width:100%;
+}
+#FirstRow {
+    margin-top: 60px;
+}
+p {
+    font-size: 35px;
+    text-align: center;
+    font-family: Raleway;
+    color: #000000;    
+}
+.beAwesome {
+    color: #FFFFFF;
+     font-size:40px;
+    font-weight: bold;
+    font-family: Raleway;
+    
+}
+#SecondRow {
+  margin-top: 100px;
+ text-align: center;
+}
+.objectcircle{
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+     
+}
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+#ThirdRow {
+    margin-top: 100px;
+}
+.footer_sentence {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: bold;
+}
+.footerspan {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 55px;
+    padding-left: 5px;
+}
+#socialmedia{
+    margin-top: 20px;
+    margin-right: -20px;
+    width: 100%;
+    text-align: center;
+}
+#fb{
+    
+}
+#tw{
+}
+#g+{
+}
+#triangle{
+    width: 0;
+	height: 0;
+	border-left: 70px solid transparent; 
+	border-right: 70px solid transparent;
+	border-bottom: 80px solid #FFFFFF;
+    position:fixed;
+    bottom: 0;
+    
+left: 50%;
+ /* Negative half of height. */
+margin-left: -60px;
+    
+    
+    
+}
+#more {
+     position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    margin-left: -20px;
+    margin-top: 20px;
+}
+h3 {
+    font-size: 20px;
+}
+#mobilemenuFB {
+    color: transparent;
+}
+#mobilemenuTW {
+    color: transparent;
+}
+#mobilemenuG {
+    color: transparent;
+}
+@media only screen and (max-width : 767px) {
+    .navbar-collapse li a {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #bs-example-navbar-collapse-1 {     
+        background-color: #001820 !important;
+        min-height: 400px;
+        background: url(assets/iks.svg) no-repeat;
+        background-size: 20px;
+        background-position:top 15px right 35px;
+        
+    }
+    p {        
+    font-size: 35px;
+    text-align: center;
+    font-family: Raleway;
+    color: #FFFFFF;    
+}
+    .footer_sentence{
+        margin-top: -50px;
+    }
+    #fb {
+        margin-top: 20px;
+    }
+    #tw {
+        margin-top: 20px;
+    }
+    #g{
+        margin-top:20px;
+    }
+    .contact {
+    border: 4px solid;   
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .contact a {
+    text-decoration: none;
+    text-align: center;
+    width:100%;
+}
+    #mobilemenuFB {
+        font-size:30px;
+        margin-left: 60px;
+        color: #FFFFFF;       
+    }
+    #mobilemenuTW {
+        font-size:30px;
+        margin-left: 60px;
+        color: #FFFFFF;      
+    }
+    #mobilemenuG {
+        font-size:30px;
+        margin-left: 60px;
+        color: #FFFFFF;    
+    }
+    i {
+        margin-top: 20px;
+    }
+	#FirstRow {
+    color:#FFFFFF;
+	}
+	#more h3:before{
+	   content:"\002b";
+       color:black;
+	   font-size: 40px;
+	   padding-left:6px;
+	}
+	#more h3 span{
+		display:none
+	}	
+    }
+	
+    
